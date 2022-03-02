@@ -128,7 +128,7 @@
 # SELECT 
 #     title,
 #     rating,
-#     CONCAT(first_name, ' ', last_name)
+#     CONCAT(first_name, ' ', last_name) AS reviewer
 # FROM series     
 # INNER JOIN reviews
 #     ON series.id = reviews.series_id
